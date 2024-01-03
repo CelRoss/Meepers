@@ -66,3 +66,13 @@ export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="Ball hitting wall 2.mp3" type="audio/mpeg">
+</audio>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="Ball sound 2.mp3" type="audio/mpeg">
+</audio>
